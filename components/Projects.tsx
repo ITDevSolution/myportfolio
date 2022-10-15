@@ -13,11 +13,11 @@ export default function Projects({}: Props) {
     className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3>
 
-        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
+        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#03ffcf]'>
            {/* projects */}
            {
             projects.map((project, i) => (
-                <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:pt-60 md:p-44 h-[95vh]'>
+                <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:pt-60 md:p-44 h-screen'>
                     <motion.img 
                     initial={{opacity:0,y:-300}}
                     transition={{duration: 1.2}}
