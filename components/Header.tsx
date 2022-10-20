@@ -30,6 +30,7 @@ export default function Header({ socials }: Props) {
         {/* Social Icons */}
         {socials.map((social) => (
           <SocialIcon
+            className="hover:bg-sky-900 "
             key={social._id}
             url={social.url}
             fgColor="gray"
