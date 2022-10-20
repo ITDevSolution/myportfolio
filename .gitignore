@@ -15,6 +15,9 @@
 #sanity
 sanity/node_modules
 
+#env example
+.env.example
+
 # production
 /build
 
