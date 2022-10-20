@@ -9,7 +9,7 @@ export default {
       type: "string",
     },
     {
-      name: "compnayImage",
+      name: "companyImage",
       title: "Company Image",
       type: "image",
       options: {
