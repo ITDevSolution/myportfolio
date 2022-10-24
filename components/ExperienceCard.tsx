@@ -7,10 +7,10 @@ type Props = {
   experience: Experience
 }
 
-export default function ExperienceCard({ experience }: Props) {
+ function ExperienceCard({ experience }: Props) {
   // console.log(experience);
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[600px] mt-10 md:mt-10 xl:mt-24 snap-center bg-gray-800 p-10 hover:opacity-100 opacity-40 cursor-pointer transition:opacity duration-200 overflow-hidden ">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[380px] md:w-[600px] xl:w-[600px] mt-28 md:mt-10 xl:mt-24 snap-center bg-gray-800 p-10 hover:opacity-100 opacity-40 cursor-pointer transition:opacity duration-200 overflow-hidden ">
       <motion.img
         initial={{
           y: -100,
@@ -49,3 +49,6 @@ export default function ExperienceCard({ experience }: Props) {
     </article>
   )
 }
+
+
+export default ExperienceCard

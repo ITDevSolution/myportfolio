@@ -17,11 +17,11 @@ import { fetchProjects } from "../utils/fetchProjects"
 import { fetchSocials } from "../utils/fetchSocials"
 
 type Props = {
-  pageInfo: PageInfo
-  experiences: Experience[]
+  pageInfo: PageInfo;
+  experiences: Experience[];
   skills: Skill[];
-  projects: Project[]
-  socials: Social[]
+  projects: Project[];
+  socials: Social[];
 }
 
 const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {

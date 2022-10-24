@@ -56,11 +56,11 @@ function Projects({ projects }: Props) {
                 ))}
               </div>
 
-              <div className="flex items-center justify-center bg-[#03ffcf]/20 hover:text-cyan-600 cursor-pointer">
+              {/* <div className="flex items-center justify-center bg-[#03ffcf]/20 hover:text-cyan-600 cursor-pointer">
                 <Link href={project?.linkToBuild}>
                   <a target="_blank">Project Link</a>
               </Link>
-              </div> 
+              </div>  */}
 
               <p className="text-lg text-center md:text-left">
                 {project?.summary}
